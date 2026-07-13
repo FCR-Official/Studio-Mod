@@ -62,44 +62,48 @@ Studios
 </h2>
 
 
-<div class="studio-grid">
-
-
-<div class="studio-card">
+<div class="studio-create">
 
 <h3>
-Featured Studio
+Create a Studio
 </h3>
 
-<p>
-A place to share projects.
-</p>
-
-<button>
-View Studio
-</button>
-
-</div>
+<input 
+id="studioName"
+placeholder="Studio name"
+>
 
 
-<div class="studio-card">
+<textarea 
+id="studioDescription"
+placeholder="Description"
+></textarea>
 
-<h3>
-Create Your Own
-</h3>
 
-<p>
-Make a new community.
-</p>
+<input
+type="file"
+id="studioBanner"
+accept="image/*"
+>
 
-<button>
+
+<button onclick="createStudio()">
 Create Studio
 </button>
 
 </div>
 
 
+
+<h3>
+Your Studios
+</h3>
+
+
+<div id="studioList">
+
 </div>
+
 
 </section>
 
