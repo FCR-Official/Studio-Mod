@@ -1,1 +1,156 @@
+* {
+    box-sizing: border-box;
+}
 
+
+body {
+
+    margin: 0;
+
+    background: #000;
+
+    color: white;
+
+    font-family: Arial, sans-serif;
+
+}
+
+
+
+header {
+
+    height: 80px;
+
+    background: #2cf27b;
+
+    color: black;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0 30px;
+
+}
+
+
+
+.logo {
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+}
+
+
+
+button {
+
+    background: #2cf27b;
+
+    color: black;
+
+    border: 2px solid black;
+
+    border-radius: 10px;
+
+    padding: 12px 20px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+
+
+button:hover {
+
+    transform: scale(1.05);
+
+}
+
+
+
+main {
+
+    padding: 30px;
+
+}
+
+
+
+.welcome {
+
+    border: 3px solid #2cf27b;
+
+    border-radius: 15px;
+
+    padding: 25px;
+
+}
+
+
+
+.profile {
+
+    margin-top: 25px;
+
+    background: #111;
+
+    border: 2px solid #2cf27b;
+
+    border-radius: 15px;
+
+    padding: 20px;
+
+}
+
+
+
+#accountBox {
+
+    background: #222;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+}
+
+
+
+.studios {
+
+    margin-top: 30px;
+
+}
+
+
+
+.studio-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+
+    gap: 20px;
+
+}
+
+
+
+.studio-card {
+
+    background: #111;
+
+    border: 2px solid #2cf27b;
+
+    border-radius: 15px;
+
+    padding: 20px;
+
+}
