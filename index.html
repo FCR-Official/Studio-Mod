@@ -24,29 +24,59 @@ Sign in with Google
 
 <main>
 
-<section class="welcome">
+<section id="homePage">
 
-<h1>
-Welcome to Studio Mod
-</h1>
+
+<h2>
+Home
+</h2>
+
 
 <p>
-A community platform inspired by Scratch Studios.
+Share your projects with everyone!
 </p>
 
+
+
+<div class="project-create">
+
+<h3>
+Create Project
+</h3>
+
+
+<input 
+id="projectName"
+placeholder="Project name"
+>
+
+
+<textarea 
+id="projectDescription"
+placeholder="Description"
+></textarea>
+
+
+<button onclick="createProject()">
+Share Project
+</button>
+
+
+</div>
+
+
+
+<h3>
+Projects
+</h3>
+
+
+<div id="projectList">
+
+</div>
+
+
 </section>
-
-
-
-<section class="welcome">
-    Welcome section
-</section>
-
-
-<section class="profile">
-    <!-- Replace the old Account section with the Profile editor here -->
-</section>
-
 
 <section class="studios">
     Studios section
